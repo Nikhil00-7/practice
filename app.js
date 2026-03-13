@@ -21,7 +21,9 @@ app.get("/stop", (req, res) => {
     console.log(
     "hello world"
     )
-
+    console.log(
+    "hello world"
+    )
     return res.json({message: "application stopped"})
 })
 
