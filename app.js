@@ -14,13 +14,13 @@ app.get("/health", (req, res) => {
     }
 })
 
-// endpoint to break the app
+
 app.get("/stop", (req, res) => {
     healthy = false
     return res.json({message: "application stopped"})
 })
 
-// endpoint to recover manually
+
 app.get("/start", (req, res) => {
     healthy = true
     return res.json({message: "application started"})
