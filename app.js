@@ -20,7 +20,7 @@ app.get("/stop", (req, res) => {
     healthy = false
     console.log(
     "hello world"
-
+    "hello world"
     )
     return res.json({message: "application stopped"})
 })
